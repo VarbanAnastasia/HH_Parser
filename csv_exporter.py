@@ -9,9 +9,4 @@ def write_to_csv(titles, names, locations, links):
         for i in range(min(len(titles), len(names), len(locations), len(links))):
             writer.writerow([i+1, titles[i], names[i], locations[i], links[i]])
 
-        print(len(job_titles))
-        print(len(company_names)) 
-        print(len(company_locations))
-        print(len(job_links))
-
 write_to_csv(titles=job_titles, names=company_names, locations=company_locations, links=job_links)
