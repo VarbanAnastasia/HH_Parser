@@ -31,5 +31,4 @@ save_to_excel(
     locations=company_locations,
     links=job_links
 )
-# Выводим сообщение об успешном создании файла
 print("Файл успешно создан")
