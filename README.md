@@ -8,7 +8,7 @@ project/
 ├── requirements.txt      # Зависимости проекта
 ├── web_page_base.py     # Базовый класс для работы с веб-страницами
 ├── vacancy_parser.py     # Основной парсер вакансий
-├── xlxs_exporter.py      # Экспорт данных в Excel
+├── xlsx_exporter.py      # Экспорт данных в Excel
 ├── .gitignore           # Файл для игнорирования файлов Git
 └── README.md            # Документация проекта
 
